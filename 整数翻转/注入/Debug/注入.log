@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/9/25 20:51:50。
+     1>项目“D:\learnC\整数翻转\注入\注入.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : 对路径“d:\learnc\整数翻转\debug\baidu.dll”的访问被拒绝。
+     1>ClCompile:
+         C:\vs2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt baidu.c
+         baidu.c
+     1>d:\learnc\整数翻转\注入\baidu.c(7): warning C4717: “go”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+       Link:
+         C:\vs2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\learnC\整数翻转\Debug\baidu.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\learnC\整数翻转\Debug\baidu.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\learnC\整数翻转\Debug\baidu.lib" /MACHINE:X86 /DLL Debug\baidu.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“D:\learnC\整数翻转\Debug\baidu.dll”
+     1>已完成生成项目“D:\learnC\整数翻转\注入\注入.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.09
