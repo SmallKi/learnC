@@ -13,10 +13,12 @@ void main()
 {
 	char className[100] = { 0 };
 	char windowName[100] = { 0 };
-	printf("请输入窗口的类名:\n");
-	int n1 = scanf("%s", className);
 	printf("请输入窗口的标题名:\n");
-	int n2 = scanf("%s", windowName);
+	int n1 = scanf("%[^\n]", windowName);
+	getchar();
+	printf("请输入窗口的类名:\n");
+	int n2 = scanf("%[^\n]", className);
+	
 
 	windowCircle(className, windowName);
 }

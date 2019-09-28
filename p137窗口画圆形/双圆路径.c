@@ -13,11 +13,11 @@ void main()
 {
 	char className[100] = { 0 };
 	char windowName[100] = { 0 };
-	printf("请输入窗口的类名:\n");
-	int n1 = scanf("%s", className);
 	printf("请输入窗口的标题名:\n");
-	int n2 = scanf("%s", windowName);
-
+	int n1 = scanf("%[^\n]", windowName);  //用正则主要是为了防止标题名中有空格出现
+	printf("%s\n", windowName);
+	getchar();   //不加这一句classname为空
+	int n2 = scanf("%[^\n]", className);
 	windowDoubleCircle(className, windowName);
 
 
@@ -62,9 +62,11 @@ void windowDoubleCircle(char* className, char* windowName)
 				flag = 1;
 			}
 
+			Sleep(10);
 		}
 	}
 	else {
 		printf("未找到窗口");
+		system("pause");
 	}
 }
