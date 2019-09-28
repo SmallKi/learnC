@@ -28,7 +28,6 @@ void main()
 	}
 	printf("\n\n");
 
-	printf("%d", test);
 	system("pause");
 }
 
